@@ -1,4 +1,4 @@
-## [Портфолио] [Ref]:
+## [Портфолио]:
 
 [Ref]: https://smylebifa.github.io/
 
