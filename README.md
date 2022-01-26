@@ -1,4 +1,6 @@
-## [Портфолио] (https://smylebifa.github.io/)
+## [Портфолио] [Ref]:
+
+[Ref]: https://smylebifa.github.io/
 
 ### Образование
 
