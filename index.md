@@ -1,5 +1,5 @@
 
-<img src = "images/photo.jpg" alt= "Фото профиля" width="50%" height="50%"/>
+<img src = "images/photo.jpg" alt= "Фото профиля" width="40%" height="40%"/>
 
 ### Образование
 
