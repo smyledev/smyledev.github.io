@@ -20,7 +20,7 @@
 5. Проектные решения на языке python, освоенные в рамках обучающего курса YLab University -
 [ShapeCalculator](https://github.com/smylebifa/ShapeCalculator) , [Tic-Tac-Toe-10x10](https://github.com/smylebifa/Tic-Tac-Toe-10x10) , [python-basics](https://github.com/smylebifa/python-basics)
 
-6. Программы с графическим отображением решений по математическому и компьютерному моделированию, используя языки JS и графическую библиотеку jsxgraphcore - [Lotka-Volterra](https://github.com/smylebifa/Lotka-Volterra) , [Wave equation](https://github.com/smylebifa/lab-solar-system) , [Wave equation](https://github.com/smylebifa/lab-solar-system)
+6. Программы с графическим отображением решений по математическому и компьютерному моделированию, используя языки JS и графическую библиотеку jsxgraphcore - [Lotka-Volterra](https://github.com/smylebifa/Lotka-Volterra) , [Wave equation](https://github.com/smylebifa/lab-solar-system) , [lab-solar-system](https://github.com/smylebifa/lab-solar-system)
 
 7. Программы на C++ в области компьютерной графики в среде Visual Studio - [Computer-Graphics](https://github.com/smylebifa/Computer-Graphics)
 
