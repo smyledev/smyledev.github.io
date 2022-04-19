@@ -1,6 +1,4 @@
 
-<img src = "images/photo.jpg" alt= "Photo" width="40%" height="40%"/>
-
 ### Education
 
 Bachelor of Applied Informatics
