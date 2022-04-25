@@ -18,7 +18,7 @@ Bachelor of Applied Informatics
 
 5. Python projects, mastered as part of the YLab University training course - [ShapeCalculator](https://github.com/smylebifa/ShapeCalculator) , [Tic-Tac-Toe-10x10](https://github.com/smylebifa/Tic-Tac-Toe-10x10) , [python-basics](https://github.com/smylebifa/python-basics)
 
-6. Programs with graphical display of mathematical and computer modeling solutions - [Lotka-Volterra](https://github.com/smylebifa/Lotka-Volterra) , [Wave equation](https://github.com/smylebifa/lab-solar-system) , [lab-solar-system](https://github.com/smylebifa/lab-solar-system)
+6. Programs with graphical display of mathematical and computer modeling solutions - [Lotka-Volterra](https://github.com/smylebifa/Lotka-Volterra) , [Wave equation](https://github.com/smylebifa/Wave-equation) , [lab-solar-system](https://github.com/smylebifa/lab-solar-system)
 
 7. Laboratory work on computer graphics - [Computer-Graphics](https://github.com/smylebifa/Computer-Graphics)
 
