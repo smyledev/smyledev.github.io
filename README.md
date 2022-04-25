@@ -20,6 +20,6 @@ Bachelor of Applied Informatics
 
 6. Programs with graphical display of mathematical and computer modeling solutions - [Lotka-Volterra](https://github.com/smylebifa/Lotka-Volterra) , [Wave equation](https://github.com/smylebifa/lab-solar-system) , [lab-solar-system](https://github.com/smylebifa/lab-solar-system)
 
-7. Computer Graphics - [Computer-Graphics](https://github.com/smylebifa/Computer-Graphics)
+7. Laboratory work on computer graphics - [Computer-Graphics](https://github.com/smylebifa/Computer-Graphics)
 
-8. Configurations, base principal and syntax of 1C - [1C](https://github.com/smylebifa/1C)
+8. Configurations, basic principles and syntax 1C - [1C](https://github.com/smylebifa/1C)
