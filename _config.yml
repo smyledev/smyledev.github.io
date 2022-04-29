@@ -1,7 +1,11 @@
 title:         "Portfolio"
 header_title:  "Portfolio"
 author:        ilia samoilov
+<<<<<<< HEAD
 description:   "Portfolio"
+=======
+description:   "Samoilov ilia"
+>>>>>>> 4208f94d4eea90864659a010c27e6d0fc727cec1
 baseurl:       ""
 url:           "https://smylebifa.github.io/"
 
