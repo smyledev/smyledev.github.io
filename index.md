@@ -4,7 +4,7 @@
 Bachelor of Applied Informatics
 
 
-### Projects
+### Main projects
 
 1. Android application - cryptography test developed on Kotlin - [GeoQuiz](https://github.com/smylebifa/GeoQuiz)
 
