@@ -4,4 +4,4 @@ author:        ilia samoilov
 description:   "Portfolio"
 baseurl:       ""
 url:           "https://smylebifa.github.io/"
-theme:         jekyll-theme-hacker
+theme:         jekyll-theme-architect
