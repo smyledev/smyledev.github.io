@@ -2,25 +2,25 @@
 layout: default
 ---
 
-### Education
+### Образование
 
-Bachelor of Applied Informatics
+Бакалавр направления «Прикладная информатика»
 
 
-### Main projects
+### Основные проекты
 
-1. Android application - cryptography test developed on Kotlin - [GeoQuiz](https://github.com/smylebifa/GeoQuiz)
+1. Android приложение - тест по криптографии на Kotlin - [GeoQuiz](https://github.com/smylebifa/GeoQuiz)
 
-2. Application for differentiating user rights and maintaining a database about them in an encrypted file - [SecInf](https://github.com/smylebifa/SecInf2)
+2. Веб приложение на ASP NET, построенное по архитектуре MVC [ProductsAccounting] (https://github.com/smylebifa/ProductsAccounting) и API к нему [ProductAPI] (https://github.com/smylebifa/ProductAPI)
 
-3. Website for working with telegram groups, created using html templates and Perl - [WebTelegramBot](https://github.com/smylebifa/WebTelegramBot)
+3. Приложение для разграничения прав пользователей и хранения данных в зашифрованном виде, созданное в Qt - [SecInf](https://github.com/smylebifa/SecInf2)
 
-4. Scientific communications support system - [SNTR](https://github.com/smylebifa/SNTR)
+3. Веб-сайт для работы с телеграмм группами, созданный на Perl - [WebTelegramBot](https://github.com/smylebifa/WebTelegramBot)
 
-5. Python projects, mastered as part of the YLab University training course - [ShapeCalculator](https://github.com/smylebifa/ShapeCalculator) , [Tic-Tac-Toe-10x10](https://github.com/smylebifa/Tic-Tac-Toe-10x10) , [python-basics](https://github.com/smylebifa/python-basics)
+5. Проекты на Python обучающего курса YLab University - [ShapeCalculator](https://github.com/smylebifa/ShapeCalculator) , [Tic-Tac-Toe-10x10](https://github.com/smylebifa/Tic-Tac-Toe-10x10) , [python-basics](https://github.com/smylebifa/python-basics)
 
-6. Programs with graphical display of mathematical and computer modeling solutions - [Lotka-Volterra](https://github.com/smylebifa/Lotka-Volterra) , [Wave equation](https://github.com/smylebifa/Wave-equation) , [lab-solar-system](https://github.com/smylebifa/lab-solar-system)
+6. Программы с реализацией прикладных задач по математическому, компьютерному моделированию - [Lotka-Volterra](https://github.com/smylebifa/Lotka-Volterra) , [Wave equation](https://github.com/smylebifa/Wave-equation) , [lab-solar-system](https://github.com/smylebifa/lab-solar-system)
 
-7. Laboratory work on computer graphics - [Computer-Graphics](https://github.com/smylebifa/Computer-Graphics)
+7. Лабораторные по компьютерной графике - [Computer-Graphics](https://github.com/smylebifa/Computer-Graphics)
 
-8. Configurations, basic principles and syntax 1C - [1C](https://github.com/smylebifa/1C)
+8. Конфигурации, руководство по 1C - [1C](https://github.com/smylebifa/1C)

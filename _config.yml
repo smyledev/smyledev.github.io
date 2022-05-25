@@ -1,7 +1,4 @@
 title:         "Резюме"
-# header_title:  "Самойлов Илья"
 author:        Самойлов Илья
-description:   "Самойлов Илья"
-baseurl:       ""
 url:           "https://smylebifa.github.io/"
 theme:         jekyll-theme-architect
