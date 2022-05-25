@@ -1,5 +1,5 @@
-## [CV][]
-[CV]: https://smylebifa.github.io/
+## [Резюме][]
+[Резюме]: https://smylebifa.github.io/
 
 ### Образование
 
