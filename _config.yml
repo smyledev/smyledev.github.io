@@ -1,7 +1,7 @@
-title:         "Portfolio"
-header_title:  "Portfolio"
-author:        ilia samoilov
-description:   "Portfolio"
+title:         "Резюме"
+header_title:  "Резюме"
+author:        Самойлов Илья
+description:   "РезюмеРезюме"
 baseurl:       ""
 url:           "https://smylebifa.github.io/"
 theme:         jekyll-theme-architect
