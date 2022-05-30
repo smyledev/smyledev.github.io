@@ -258,6 +258,7 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-feed
+  jekyll-github-metadata
   jekyll-seo-tag
   jekyll-sitemap
 
