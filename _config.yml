@@ -1,4 +1,9 @@
-title:         "Резюме"
-author:        Самойлов Илья
+title: smyle_bifa
+author:        samoilov ilia
 url:           "https://smylebifa.github.io/"
 theme:         jekyll-theme-hacker
+description:  
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
