@@ -1,4 +1,4 @@
-title: smyle_bifa
+title: smylebifa
 repository: smylebifa/smylebifa.github.io
 author:        samoilov ilia
 url:           "https://smylebifa.github.io/"
@@ -10,4 +10,4 @@ plugins:
   - jekyll-seo-tag
   - "jekyll-github-metadata"
 
-google_analytics: G-DXYRBHRCMF
+google_analytics:
