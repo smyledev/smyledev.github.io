@@ -3,25 +3,21 @@ layout: default
 title: Главная
 ---
 
-## Welcome to markdown page
+## Добро пожаловать на страницу markdown
 
-_yay_
+Текст может быть **жирным**, _наклонным_, ~~перечеркнутым~~ или `выделенным`.
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+# Заголовок 1
 
-There should be whitespace between paragraphs.
+Это обычный параграф после заголовка.
 
-# Header 1
+## Заголовок 2
 
-This is a normal paragraph following a header. 
-
-## Header 2
-
-> This is a blockquote following a header.
+> Это цитата после заголовка
 >
-> When something is important enough, you do it even if the odds are not in your favor.
+> Когда что-то достаточно важное, вы это делаете, даже если шансы не в вашу пользу
 
-### Header 3
+### Заголовок 3
 
 ```js
 // Javascript code with syntax highlighting.
@@ -38,85 +34,85 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-#### Header 4
+#### Заголовок 4
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+*   Это неупорядоченный список, следующий за заголовком.
+*   Это неупорядоченный список, следующий за заголовком.
+*   Это неупорядоченный список, следующий за заголовком.
 
-##### Header 5
+##### Заголовок 5
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+1.  Это упорядоченный список, следующий за заголовком.
+2.  Это упорядоченный список, следующий за заголовком.
+3.  Это упорядоченный список, следующий за заголовком.
 
-###### Header 6
+###### Заголовок 6
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+| номер фрукта |    название       | цена      |
+|-------------:|:------------------|:---------:|
+| 1            | апельсин          | 100       |
+| 2            | киви              | 150       |
+| 3            | яблоко            | 120       |
+| 4            | грейпфрут         | 70        |
 
-### There's a horizontal rule below this.
+### Горизонтальный разделитель после абзаца.
 
 * * *
 
-### Here is an unordered list:
+### Неупорядоченный список:
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+*   Элемент foo
+*   Элемент bar
+*   Элемент baz
+*   Элемент zip
 
-### And an ordered list:
+### Неупорядоченный список:
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+1.  Пункт 1
+1.  Пункт 2
+1.  Пункт 3
+1.  Пункт 4
 
 ### And a nested list:
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+- пункт уровеня 1 
+  - пункт уровеня 2
+  - пункт уровеня 2
+    - пункт уровеня 3
+    - пункт уровеня 3
+- пункт уровеня 1
+  - пункт уровеня 2
+  - пункт уровеня 2
+  - пункт уровеня 2
+- пункт уровеня 1
+  - пункт уровеня 2
+  - пункт уровеня 2
+- пункт уровеня 1
 
 ### Small image
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
 
-### Definition lists can be used with HTML syntax.
+### Списки определений можно использовать с синтаксисом HTML.
 
 <dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
+<dt>Название</dt>
+<dd>Годзила</dd>
+<dt>Год рождения</dt>
 <dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
+<dt>Место рождения</dt>
+<dd>Япония</dd>
+<dt>Цвет</dt>
+<dd>Зеленый</dd>
 </dl>
 
 ```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+Длинные однострочные блоки кода не должны переноситься. Они должны прокручиваться по горизонтали, если они слишком длинные. Эта строка должна быть достаточно длинной, чтобы продемонстрировать это.
 ```
 
 ```
-The final element.
+Последний элемент.
 ```
 
-[back](./)
+[Назад](./)
