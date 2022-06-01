@@ -3,4 +3,4 @@ layout: default
 title: Главная
 ---
 
-[Markdown page](./markdown-page.html)
+1. [Markdown](./markdown-page.html)
