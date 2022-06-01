@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Главная
+title: Markdown
 ---
 
 ## Добро пожаловать на страницу markdown
