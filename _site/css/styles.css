@@ -107,6 +107,4 @@ a { color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
 
 #a-title { text-decoration: none; }
 
-nav { display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; }
-
-nav a { display: inline-block; padding: 10px; }
+.btn { color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
