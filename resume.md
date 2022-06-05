@@ -15,7 +15,7 @@ title: Резюме
 
 ## Основные проекты
 
-1. Синтаксис, решения задач из Web - [Web](https://github.com/smylebifa/SolutionsWeb), исходники сайта научно-технологического развития - [SNTR](https://github.com/smylebifa/SNTR), сайт новостей на Laravel - [News](https://github.com/smylebifa/News) 
+1. Решения задач из Web - [Web](https://github.com/smylebifa/SolutionsWeb), исходники сайта научно-технологического развития - [SNTR](https://github.com/smylebifa/SNTR), сайт новостей на Laravel - [News](https://github.com/smylebifa/News) 
 
 1. Android приложение - тест по криптографии на Kotlin - [GeoQuiz](https://github.com/smylebifa/GeoQuiz)
 
