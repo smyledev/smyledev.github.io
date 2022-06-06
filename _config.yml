@@ -10,4 +10,4 @@ plugins:
   - jekyll-seo-tag
   - "jekyll-github-metadata"
 
-google_analytics:
+source: source
