@@ -439,41 +439,56 @@ a > b
 Пример работы макроса rand-nth...
 ```(def food [:ice-cream :steak :apple])```
 #'user/food
-```(rand-nth food)```
+```
+(rand-nth food)
 :apple
-```(rand-nth food)```
+```
+```
+(rand-nth food)
 :ice-cream
+```
 ## Основные объекты для работы с потоками
 Объявление атомического вектора, который позволяет использовать переменную из разных потоков
 и изменять, при условии, что никто другой ее не изменил(сохраняет предыдущее состояние, т.е. ссылку)...
-```(def v (atom []))```
+```
+(def v (atom []))
 => #'user/v
+```
 Получаем значение атома(разыменование ссылки).
 1 вариант.
-```(deref v)```
+```
+(deref v)
 => []
+```
 2 вариант...
-```@v```
+```
+@v
 => []
+```
 Изменение значения атома...
-```(reset! v [1])```
+```(reset! v [1])
 => [1]
+```
+
 Добавление значения путем применения функции к атому...
-```(swap! v conj 3)```
+```(swap! v conj 3)
 => [1 3]
+```
+
 Применение функции swap для изменения атома...
 ```
 (defn example []
   (def myatom (atom 1))
   (println @myatom)
-
   (swap! myatom inc)
   (println @myatom)) (example)
-```
 1
 2
 => #'user/example
 => nil
+```
+
+
 Выполнение действий с атомом...
 ```
 (defn counter []
@@ -481,69 +496,97 @@ a > b
     {:inc! (fn [] (swap! cnt inc))
      :dec! (fn [] (swap! cnt dec)) 
      :get (fn [] @cnt)} ))
-
 (let [cnt (counter)]
   ((:inc! cnt))
   ((:inc! cnt)) 
   ((:get cnt)))
-```
 => 2
+```
+
+
 Объявление агента, действия с которым выполняются в отдельном потоке...
-```(def a (agent []))```
+```
+(def a (agent []))
 => #'user/a
+```
+
 Изменение значения агента посылается в виде лямбда функции в асинхронном виде...
-```(send a conj 3)```
+```
+(send a conj 3)
 => #object[clojure.lang.Agent 0x23f60518 {:status :ready, :val [3]}]
+```
+
 Пример добавления к агенту числа 100...
-```(def my-agent (agent 100))```
+```
+(def my-agent (agent 100))
 => #'user/my-agent
-```(send my-agent + 100)```
+```
+
+```
+(send my-agent + 100)
 => #object[clojure.lang.Agent 0x194f77b {:status :ready, :val 100}]
-```(deref my-agent)```
+```
+
+```
+(deref my-agent)
 => 200
+```
+
 Пример использования агента для вычисления суммирующего значения всех элементов вектора...
 ```
 (def sum (agent 0)) 
 (def numbers [0 9 3 4 5 5 4 44 4 2 5 6 7 775])
-
 (doseq [x numbers]
   (send sum + x))
 ```
+
 Ожидание пока не выполнятся действия с sum...
 ```
 (await sum)
-
 (println @sum)
-```
 => #'user/sum
 => #'user/numbers
 => nil
 => nil
 873
 => nil
+```
+
 Используется для блокирующих операций, таких как println...
-```(send-off a conj 3)```
+```
+(send-off a conj 3)
 => #object[clojure.lang.Agent 0x75141ca3 {:status :ready, :val []}]
+```
+
 Пример использования метода wait для ожидания завершения потока или агента.
 Макрос send отправляет действие агенту...
 ```
 (def agnt (agent {}))
-
 (send-off agnt (fn [state] 
                (Thread/sleep 10000)
                (assoc state :done true)))
-```               
+              
 => <Agent@5db18235: {}>
+``` 
+
 ```
 (await agnt)
-```
 => nil
+```
+
+
 Объявление ссылки содержащего значение...
-```(def r (ref 0))```
+```
+(def r (ref 0))
 => #'user/r
+```
+
 Изменение значения внутри транзакции...
-```(dosync (ref-set r 1))```
+```(dosync (ref-set r 1))
 => 1
+```
+
+
 Изменение переменной с помощью функции(аналогично swap! у атома)...
 ```(def my-ref (ref 0))```
 1 вариант.
@@ -732,19 +775,22 @@ user> (->> ["Japan" "China" "Korea"]
 ```
 
 2 вариант.
-```(def psum (p/mapcat (fn [result1] (p/map (fn [result2] (+ result1 result2)) prom2)) prom1))```
+```
+(def psum (p/mapcat (fn [result1] (p/map (fn [result2] (+ result1 result2)) prom2)) prom1))
+```
+
 3 вариант.
 ```
 (def psum (p/alet [r1 (p/await prom1)
                    r2 (p/await prom2)]
                   (+ r1 r2)))
 ```
+
 4 вариант.
 ```
 [promesa.async :as pa]
 (def psum (pa/async (+ (p/await prom1) (p/await prom2))))
 (println "result = " @psum)
-
 ; Добавление и получение элементов из очереди в отдельных потоках...
 (def queue (ArrayBlockingQueue. 10))
 (-> (Thread. (fn [] (doseq [x (range 0 10)]
@@ -756,6 +802,7 @@ user> (->> ["Japan" "China" "Korea"]
                (while true (println "taken " (.take queue)))))
     (.start))
 ```
+
 Второй способ для работы с очередью.
 Позволяет асинхронно с помощью callback функций получать и добавлять значения...
 ```
@@ -768,6 +815,7 @@ user> (->> ["Japan" "China" "Korea"]
 (producer 10)
 (consumer)
 ```
+
 Третий способ для работы с очередью...
 ```
 (def queue (a/chan 10))
@@ -778,6 +826,7 @@ user> (->> ["Japan" "China" "Korea"]
 (a/go []
       (while true (println (str "taken " (a/<! queue)))))
 ```
+
 Добавляем закрытие канала при добавлении и получении значений.
 Добавляем символы получения, чтобы не указывать каждый раз namespace...
 ```
@@ -792,6 +841,7 @@ user> (->> ["Japan" "China" "Korea"]
         (println (str "r = " r))
         (recur))))
 ```
+
 Использование нескольих каналов для записи и чтения...
 ```
 (def chan1 (a/chan))
@@ -812,6 +862,7 @@ user> (->> ["Japan" "China" "Korea"]
         (println (str "r = " r))
         (recur))))
 ```
+
 Создание 2 функций - возвращающие канал по переданному вектору 
 и вектор по полученному в качестве параметра канала...
 ```
@@ -831,5 +882,3 @@ user> (->> ["Japan" "China" "Korea"]
 (def c1 (vec-to-chan (range 0 10)))
 (println "r = " (chan-to-vec c1))
 ```
-
-[Назад](./)
