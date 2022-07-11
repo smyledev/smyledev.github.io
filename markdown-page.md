@@ -6,9 +6,9 @@ title: Markdown
 # Добро пожаловать на страницу Markdown
 
 ## Содержание
-[О Markdown](#about) 
+[1. О Markdown](#about) 
 
-[Представление и возможности разметки с помощью Markdown](#syntax)
+[2. Представление и возможности разметки с помощью Markdown](#syntax)
 
 
 <a name="about"><h2>О Markdown</h2></a>
