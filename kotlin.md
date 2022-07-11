@@ -374,3 +374,6 @@ enum class DayOfWeek{Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sun
 val today: DayOfWeek = DayOfWeek.Saturday
 print("Today: $today")
 ```
+
+[Назад](./)
+
