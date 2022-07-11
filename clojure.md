@@ -882,3 +882,6 @@ user> (->> ["Japan" "China" "Korea"]
 (def c1 (vec-to-chan (range 0 10)))
 (println "r = " (chan-to-vec c1))
 ```
+
+[Назад](./)
+
