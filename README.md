@@ -1,5 +1,5 @@
 ## [Резюме][]
-[Резюме]: https://smylebifa.github.io/
+[Резюме]: https://smylebifa.github.io/resume.html
 
 ### Образование
 
