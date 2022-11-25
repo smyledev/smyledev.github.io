@@ -1,2 +1,1 @@
-# [SmyleDev](https://smyledev.github.io
-/)
+# [SmyleDev](https://smyledev.github.io/)
