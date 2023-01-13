@@ -12,7 +12,7 @@
 
 1. Android приложение - тест по криптографии на Kotlin - [GeoQuiz](https://github.com/smylebifa/GeoQuiz)
 
-1. Веб приложение учета покупок пользователей на ASP NET, построенное по архитектуре MVC - [ProductsAccounting](https://github.com/smylebifa/ProductsAccounting) и API к нему - [ProductAPI](https://github.com/smylebifa/ProductAPI)
+1. Веб приложение для учета покупок пользователей на ASP NET, построенное по архитектуре MVC - [ProductsAccounting](https://github.com/smylebifa/ProductsAccounting) и API к нему - [ProductAPI](https://github.com/smylebifa/ProductAPI)
 
 1. Приложение для разграничения прав пользователей и хранения данных в зашифрованном виде, созданное в Qt - [SecInf](https://github.com/smylebifa/SecInf2)
 
