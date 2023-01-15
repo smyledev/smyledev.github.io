@@ -1,7 +1,4 @@
-# SortingAlgorithms
-
-
-## Sorting algorithms 
+# Sorting algorithms
 
 | № |          Algorithm           | Time complexity (Worst) | Time complexity (Average) |   Time complexity (Best)  | Space compexity |
 |:-:|:----------------------------:|:-----------------------:|:-------------------------:|:-------------------------:|:---------------:|
