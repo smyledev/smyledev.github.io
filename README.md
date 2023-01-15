@@ -24,4 +24,4 @@
 
 1. Лабораторные по компьютерной графике - [Computer-Graphics](https://github.com/smylebifa/Computer-Graphics)
 
-1. Конфигурации, руководство по 1C - [1C](https://github.com/smylebifa/1C)
+1. Конфигурации, решение задач и руководство по 1C - [1C](https://github.com/smylebifa/1C)
