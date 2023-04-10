@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 # Основные проекты
-=======
-## [Резюме][]
-[Резюме]: https://smylebifa.github.io/resume.html
->>>>>>> 67826f6f557fbc40fb55112823e509890453b1a6
 
 ## [Проекты][]
 [Проекты]: https://smylebifa.github.io/projects.html
