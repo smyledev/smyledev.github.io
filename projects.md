@@ -1,19 +1,9 @@
 ---
 layout: default
-title: Резюме
+title: Проекты
 ---
 
-# Резюме
-
-Самойлов Илья
-
-
-## Образование
-
-Бакалавр направления «Прикладная информатика»
-
-
-## Основные проекты
+# Основные проекты
 
 1. Решения задач из Web - [Web](https://github.com/smylebifa/SolutionsWeb), исходники сайта научно-технологического развития - [SNTR](https://github.com/smylebifa/SNTR), сайт новостей на Laravel - [News](https://github.com/smylebifa/News) 
 

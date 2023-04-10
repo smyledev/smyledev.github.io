@@ -1,15 +1,9 @@
-## [Резюме][]
-[Резюме]: https://smylebifa.github.io/
+# Основные проекты
 
-### Образование
-
-Бакалавр направления «Прикладная информатика»
-
-
-### Основные проекты
+## [Проекты][]
+[Проекты]: https://smylebifa.github.io/projects.html
 
 1. Решения задач из Web - [Web](https://github.com/smylebifa/SolutionsWeb), исходники сайта научно-технологического развития - [SNTR](https://github.com/smylebifa/SNTR), сайт новостей на Laravel - [News](https://github.com/smylebifa/News) 
-
 1. Android приложение - тест по криптографии на Kotlin - [GeoQuiz](https://github.com/smylebifa/GeoQuiz)
 
 1. Веб приложение на ASP NET, построенное по архитектуре MVC - [ProductsAccounting](https://github.com/smylebifa/ProductsAccounting) и API к нему - [ProductAPI](https://github.com/smylebifa/ProductAPI)
