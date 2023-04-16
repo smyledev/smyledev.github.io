@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Главная
+title: Home
 ---
 
 1. [Markdown](./markdown-page.html)
