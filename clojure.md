@@ -127,7 +127,8 @@ Yes, если условие выполняется, No в обратном сл
 ```
 
 Создание последовательности и взятие 10 элементов из нее...
-```(defn nums [start]
+```
+(defn nums [start]
   (cons start (lazy-seq (nums (inc start))))) 
 (take 10 (nums 1))
 ```
@@ -153,16 +154,11 @@ Yes, если условие выполняется, No в обратном сл
 (map inc [1 2 3 4 5])
 
 => (2 3 4 5 6)
-```
 
-
-```
 (map + [1 2 3] [4 5 6])
 
 => (5 7 9)
-```
 
-```
 (map #(str "Hello " % "!" ) ["Ford" "Arthur" "Tricia"])
 
 => ("Hello Ford!" "Hello Arthur!" "Hello Tricia!")
