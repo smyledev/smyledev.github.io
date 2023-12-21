@@ -3,6 +3,8 @@
 ## [Projects][]
 [Projects]: https://smylebifa.github.io/projects.html
 
+1. Page examples: (**Page 1**) - **[Page1](https://smylebifa.github.io/page1.html)**
+
 1. Creating an electronic digital signature, sending by mail and verifying the signature (**ASP NET**, **MVC**) - **[DigitalSignature](https://github.com/smylebifa/CreateAndSendSignatureByGmail)**
 
 1. API for working with exchange rates (**ASP NET**, **Web API**) - **[ExchangeRates](https://github.com/smylebifa/ExchangeRates)**
