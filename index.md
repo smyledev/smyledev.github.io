@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-1. [Example pages (HTML, CSS, JS)](./[page1.html)
+1. [Example pages (HTML, CSS, JS)](./page1.html)
 
 2. [Sorting algorithms (C++)](./sorting_algorithms.html)
 
