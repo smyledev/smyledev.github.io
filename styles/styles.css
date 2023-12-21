@@ -1,0 +1,126 @@
+.form-button{
+	background-image: linear-gradient(180deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/button-back3.png'); 
+	background-size: cover; 
+	color: white;
+	opacity: 0.8;
+}
+
+.form-button:hover{
+	opacity: 1;
+	background-image: none;
+	background-color: black;	
+}
+
+.dropdown-item:hover {
+  text-decoration: none; /* Убираем подчёркивание */
+  color: #FFFAC0; /* Цвет ссылки */ 
+  background: #33b4e5; /* Цвет фона */
+}
+
+footer {
+	opacity: 0.5;
+}
+
+.OneC {
+  filter: grayscale(100%) contrast(200%);
+
+}
+
+.OneC:hover {
+/*filter: drop-shadow(-7px 4px 16px green) invert(90%);*/
+filter: drop-shadow(-7px 4px 16px #111111) invert(100%) contrast(200%);
+}
+
+
+.CSharp {
+/*  filter: hue-rotate(50deg); */
+/*  filter: hue-rotate(60deg); */
+filter: grayscale(100%) contrast(200%);
+}
+
+.CSharp:hover {
+/*  filter: hue-rotate(50deg); */
+/*  filter: hue-rotate(60deg); */
+filter: drop-shadow(-7px 4px 16px #111111) hue-rotate(60deg) contrast(200%);
+}
+
+
+
+.Python {
+/*  filter: drop-shadow(16px 16px 20px white) invert(90%);*/
+/*  filter: hue-rotate(100deg); */
+filter: grayscale(100%) contrast(200%);
+}
+
+.Python:hover {
+/*  filter: drop-shadow(16px 16px 20px white) invert(90%);*/
+/*  filter: hue-rotate(100deg); */
+filter: drop-shadow(-7px 4px 16px #111111) hue-rotate(100deg) contrast(200%);
+}
+
+
+
+.CPlusPlus {
+/*  filter: hue-rotate(-30deg); */
+/*  filter: hue-rotate(-50deg); */
+filter: grayscale(100%) contrast(200%);
+}
+
+.CPlusPlus:hover {
+/*  filter: hue-rotate(-30deg); */
+/*  filter: hue-rotate(-50deg); */
+filter: drop-shadow(-7px 4px 16px #111111) hue-rotate(-50deg)  invert(90%) contrast(200%);
+
+}
+
+
+.lang:hover {
+/*  background-color: rgb(255, 100, 0, 0.1);*/
+  background-color: #0078c763;
+}
+
+
+code {
+  color: #33b4e5;
+}
+
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgb(255 255 255 / 65%);
+  border: solid rgb(0 0 0 / 84%);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+
+.b-example-divider2 {
+  height: 3rem;
+/*  background-color: rgb(221 136 100 / 72%);*/
+  background-color: #f7f7f7b8;
+  border: solid rgb(0 0 0 / 84%);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+
+.scale {
+/*    display: inline-block; */
+overflow: hidden; 
+
+
+}
+
+.scale img {
+  transition: 0.8s; /* Effect time */
+  display: block; 
+  border: 2px solid black;
+  border-radius: 10px;
+  float: center;
+  opacity: 0.9;
+
+}
+.scale img:hover {
+  transform: scale(1.1); /* Zoom in */
+}
+
