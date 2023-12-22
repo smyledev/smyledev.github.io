@@ -107,9 +107,23 @@ code {
 .scale {
 /*    display: inline-block; */
 overflow: hidden; 
+}
 
+
+.scale {
+  transition: 0.8s; /* Effect time */
+  display: block; 
+  border: 2px solid black;
+  border-radius: 10px;
+  float: center;
+  opacity: 0.9;
 
 }
+.scale:hover {
+  transform: scale(1.1); /* Zoom in */
+}
+
+
 
 .scale img {
   transition: 0.8s; /* Effect time */
