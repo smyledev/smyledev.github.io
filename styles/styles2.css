@@ -1,0 +1,74 @@
+.form-button{
+	background-image: linear-gradient(180deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/button-back3.png'); 
+	background-size: cover; 
+	color: white;
+	opacity: 0.8;
+}
+
+.form-button:hover{
+	opacity: 1;
+	background-image: none;
+	background-color: black;	
+}
+
+.dropdown-item:hover {
+  text-decoration: none; /* Убираем подчёркивание */
+  color: #FFFAC0; /* Цвет ссылки */ 
+  background: rgb(255, 51, 51, 1.0); /* Цвет фона */
+}
+
+footer {
+	opacity: 0.5;
+}
+
+
+.musicCards {
+filter: grayscale(100%) contrast(200%);
+}
+
+.musicCards:hover {
+filter: drop-shadow(-7px 4px 16px #111111) hue-rotate(90deg) contrast(200%);
+}
+
+
+.lang:hover {
+  background-color: rgb(255, 51, 51, 0.3);
+}
+
+code {
+  color: rgb(255, 51, 51, 1.0);
+}
+
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgb(255 255 255 / 65%);
+  border: solid rgb(0 0 0 / 84%);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+
+.b-example-divider2 {
+  height: 3rem;
+  background-color: #bd3939b8;
+  border: solid rgb(0 0 0 / 84%);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+
+
+.scale {
+  transition: 0.8s; 
+  display: block; 
+  border: 2px solid black;
+  border-radius: 10px;
+  float: center;
+  opacity: 0.9;
+
+}
+
+.scale:hover {
+  transform: scale(1.1);
+}
