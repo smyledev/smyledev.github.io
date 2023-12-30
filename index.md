@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-1. [Example page 1](./page1.html) , [Example page 2](./page2.html)
+1. [Example page 1](./page1.html), [Example page 2](./page2.html)
 
 2. [Sorting algorithms (C++)](./sorting_algorithms.html)
 
