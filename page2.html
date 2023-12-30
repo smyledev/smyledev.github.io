@@ -1,0 +1,261 @@
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Page 2</title>
+
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="styles/styles2.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"> 
+
+</head>
+
+
+<body style="background-image: linear-gradient(270deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/background15.jpg'); background-size: cover;">
+
+  <header>
+
+   <nav class="navbar navbar-expand-lg" aria-label="Tenth navbar example" style="background-image: linear-gradient(180deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('images/background5.jpg'); border-bottom: 1px solid grey; ">
+
+    <div class="container-fluid">
+      <button class="navbar-toggler" style="background-color: rgb(255, 51, 51, 1.0);" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Переключить навигацию">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#">
+              <img src="images/Logo.png" width="40" height="32">
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#">Centered nav only</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Ссылка</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true">Отключенная</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Выпадающая кнопка</a>
+            <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown08">
+              <li><a class="dropdown-item text-light" href="#">Действие</a></li>
+              <li><a class="dropdown-item text-light" href="#">Другое действие</a></li>
+              <li><a class="dropdown-item text-light" href="#">Что-то еще здесь</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+<main>
+
+  <div class="col-lg-8 mx-auto p-3 py-md-5 text-light">
+
+    <div class="d-flex align-items-center pb-3 mb-5 border-bottom">
+
+     <a href="#" class="d-flex me-2 align-items-center text-light text-decoration-none">
+      <div class="fs-4">Стартовый шаблон</div>
+    </a>
+
+  </div>
+
+  <h1>Начать работу с Bootstrap</h1>
+  <p class="fs-5 col-md-8">Быстро и легко приступайте к работе с скомпилированными, готовыми к работе файлами Bootstrap с помощью этого простого примера, содержащего базовый HTML и полезные ссылки. Загрузите все наши примеры, чтобы начать.</p>
+
+  <hr class="col-12 col-md-12 mb-5 mt-5">
+
+  <div class="row g-5">
+    <div class="col-md-6">
+      <h2>Стартовые проекты</h2>
+      <p>Готовы выйти за рамки стартового шаблона? Ознакомьтесь с этими проектами с открытым исходным кодом, которые вы можете быстро скопировать в новый репозиторий GitHub.</p>
+      <ul class="icon-list">
+        <li><a href="#" style="color: white;"rel="noopener" target="_blank">Стартер Bootstrap npm</a></li>
+        <li><span style="color: white;">Стартовый пакет Bootstrap Parcel (скоро!)</span></li>
+      </ul>
+    </div>
+
+    <div class="col-md-6">
+      <h2>Руководства</h2>
+      <p>Прочтите более подробные инструкции и документацию по использованию или расширению Bootstrap.</p>
+      <ul class="icon-list">
+        <li><a href="#" style="color: white;">Краткое руководство по началу работы с Bootstrap</a></li>
+        <li><a href="#" style="color: white;">Руководство Bootstrap Webpack</a></li>
+        <li><a href="#" style="color: white;">Руководство Bootstrap Parcel</a></li>
+        <li><a href="#" style="color: white;">Вклад в Bootstrap</a></li>
+      </ul>
+    </div>
+  </div>
+
+</hr>
+
+  </div>
+
+
+<div class="container px-4 text-light" id="custom-cards">
+  <h2 class="pb-2 border-bottom">Пользовательская карточка</h2>
+
+  <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg scale" style="background-image: url('images/card1.png'); background-size: cover; ">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+          <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Короткое название, длинная куртка</h2>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <img src="images/Logo.png" alt="Sofia" width="32" height="32" style="border: none;">
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#"></use></svg>
+              <small>Text 1</small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#"></use></svg>
+              <small>3d</small>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg scale" style="background-image: url('images/card2.jpg'); background-size: cover; ">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+          <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Гораздо более длинный заголовок, который занимает несколько строк</h2>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <img src="images/Logo.png" alt="Sofia" width="32" height="32" style="border: none;">
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+              <small>Text 2</small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+              <small>4d</small>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg scale" style="background-image: url('images/card3.jpg'); background-size: cover; ">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+          <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Еще одно более длинное название принадлежит здесь</h2>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <img src="images/Logo.png" alt="Sofia" width="32" height="32" style="border: none;">
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+              <small>Text 3</small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+              <small>5d</small>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="col-lg-8 mx-auto p-3 py-md-2 text-light">
+
+  <div class="row">
+
+    <div class="accordion accordion-flush" id="accordionExample">
+      <div class="accordion-item bg-dark text-light">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item bg-dark text-light">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item bg-dark text-light">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+<div class="b-example-divider2"></div>
+
+    <h2 class="pb-2 border-bottom mt-5">Favorite music artists</h2>
+
+
+ <div class="row g-5">
+
+
+<div class="col-md-6" style="text-align: center;">
+  <div>
+          <image class="musicCards" style="height: 150px; padding: 5px;" src="images/ugly.jpg"/>
+          <h4 class="fw-bold mb-0">Uglystephan</h4>
+          <p>Абзац текста под заголовком, поясняющий заголовок.</p>
+        </div>
+</div>
+
+
+<div class="col-md-6" style="text-align: center;">
+   <div>
+          <image class="musicCards" style="height: 150px; padding: 5px;" src="images/newlight.png"/>
+          <h4 class="fw-bold mb-0">Newlightchild</h4>
+          <p>Абзац текста под заголовком, поясняющий заголовок.</p>
+        </div>
+</div>
+
+
+  </div>
+
+</div>
+
+</main>
+
+<footer style="background-image: linear-gradient(180deg,rgba(0,0,0,1),rgba(0,0,0,1)),url('images/background5.jpg');  border-top: 1px solid grey;">
+  <div class="col-lg-8 mx-auto p-3 py-md-6" style="color: white;">
+    Page 2
+  </div>
+
+</footer>
+
+</body>
+</html>
