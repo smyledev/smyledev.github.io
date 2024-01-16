@@ -3,7 +3,7 @@ repository: smylebifa/smylebifa.github.io
 author:        samoilov ilia
 url:           "https://smylebifa.github.io/"
 theme:         jekyll-theme-hacker
-description: SPA, created with jekyll, chosen theme is hacker
+description: Samoilov Ilia
 plugins:
   - jekyll-feed
   - jekyll-sitemap
