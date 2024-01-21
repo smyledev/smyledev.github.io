@@ -19,7 +19,7 @@
 
 1. Application for differentiating user rights and storing encrypted data (**Qt**, **C++**) - **[SecInf](https://github.com/smylebifa/SecInf2)**
 
-1. Notes of 1C (solutions, manuals) **1C** - **[1C](https://github.com/smylebifa/1C)**
+1. Notes of 1C (solutions, manuals) **1C** - **[1C](https://github.com/smylebifa/Notes1C)**
 
 1. Decisions of Web (**HTML**, **CSS**, **JS**)- **[Web](https://github.com/smylebifa/SolutionsWeb)**
 
