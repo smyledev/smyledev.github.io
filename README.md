@@ -23,4 +23,4 @@
 
 1. Decisions of Web (**HTML**, **CSS**, **JS**)- **[Web](https://github.com/smylebifa/SolutionsWeb)**
 
-1. Page examples: **[Page 1](https://smylebifa.github.io/page1.html)**, **[Page 2](https://smylebifa.github.io/page2.html)**
+1. Page examples: **[Page 1](https://smylebifa.github.io/page1.html)**, **[Page 2](https://smylebifa.github.io/page2.html)** , **[Page 3](https://smylebifa.github.io/page3.html)**
