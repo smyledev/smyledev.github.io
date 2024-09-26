@@ -137,7 +137,7 @@ tfoot th {
 }
 
 thead, tfoot {
-    background-image: url('./images/leopardskin.jpg');
+    background-image: url('../images/leopardskin.jpg');
     color: #fff;
     text-shadow: 1px 1px 1px black
 }
