@@ -27,7 +27,7 @@ header.main-header {
 }
 
 .avatar-figure {
-    background-image: url('images/stars.jpg');
+    background-image: url('./images/stars.jpg');
     background-color: rgb(47, 47, 91);
     background-size: cover;
     margin: 0;
@@ -61,15 +61,15 @@ a.contact:active {
 }
 
 .contact-phone::before{
-    background-image: url('images/phone-call.svg');        
+    background-image: url('./images/phone-call.svg');        
 }
 
 .contact-inst::before {
-    background-image: url('images/instagram-logo.svg');
+    background-image: url('./images/instagram-logo.svg');
 }
 
 .contact-twitter::before {
-    background-image: url('images/twitter.svg');
+    background-image: url('./images/twitter.svg');
 }
 
 h1 {
@@ -88,8 +88,8 @@ section.summary {
 
 .space {
     background: 
-        url('images/rocket_big.png') no-repeat center, 
-        url('images/space.jpg') no-repeat bottom center;
+        url('./images/rocket_big.png') no-repeat center, 
+        url('./images/space.jpg') no-repeat bottom center;
     float: left;
     width:  8rem;   
     height:  8rem;
@@ -137,7 +137,7 @@ tfoot th {
 }
 
 thead, tfoot {
-    background-image: url('images/leopardskin.jpg');
+    background-image: url('./images/leopardskin.jpg');
     color: #fff;
     text-shadow: 1px 1px 1px black
 }
