@@ -1,7 +1,7 @@
 title: smylebifa
-repository: smylebifa/smylebifa.github.io
+repository: smyledev/smyledev.github.io
 author:        samoilov ilia
-url:           "https://smylebifa.github.io/"
+url:           "https://smyledev.github.io/"
 theme:         jekyll-theme-hacker
 description: Samoilov Ilia
 plugins:
