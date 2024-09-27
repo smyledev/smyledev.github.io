@@ -179,5 +179,5 @@ img {
 }
 
 img:hover {
-    drop-shadow(16px 16px 20px #9d46e7);
+    filter: drop-shadow(16px 16px 20px #9d46e7);
 }
