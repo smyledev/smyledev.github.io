@@ -173,3 +173,9 @@ a:hover {
 a:visited {
     color: #9150ae;
 }
+
+img:hover {
+/*  filter: drop-shadow(16px 16px 20px white) invert(90%);*/
+/*  filter: hue-rotate(100deg); */
+filter: drop-shadow(-7px 4px 16px #111111) hue-rotate(100deg) contrast(200%);
+}
