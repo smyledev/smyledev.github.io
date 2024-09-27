@@ -174,8 +174,13 @@ a:visited {
     color: #9150ae;
 }
 
-a.photo:hover {
-/*  filter: drop-shadow(16px 16px 20px white) invert(90%);*/
-/*  filter: hue-rotate(100deg); */
-filter: drop-shadow(-7px 4px 16px #111111) hue-rotate(100deg) contrast(200%);
+img.photo {
+    width:200px; 
+    border-radius: 100%; 
+    opacity: 0.5;
+    filter: drop-shadow(16px 16px 20px blue);
+}
+
+img.photo:hover {
+    drop-shadow(16px 16px 20px #9d46e7);
 }
