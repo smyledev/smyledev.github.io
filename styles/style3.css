@@ -163,3 +163,13 @@ main {
     background: linear-gradient(99.9deg, rgb(14, 13, 33,0.9) 21.2%, rgb(14, 14, 33,0.9) 84.8%);
     color: white;
 }
+
+a {
+    color: rgb(102, 102, 102);
+}
+a:hover {
+    color: #9150ae;
+}
+a:visited {
+    color: #9150ae;
+}
