@@ -174,10 +174,10 @@ a:visited {
     color: #9150ae;
 }
 
-img.photo {
+img {
     filter: drop-shadow(16px 16px 20px blue);
 }
 
-img.photo:hover {
+img:hover {
     drop-shadow(16px 16px 20px #9d46e7);
 }
