@@ -164,23 +164,13 @@ main {
     color: white;
 }
 
-a {
+a, a h4 {
     color: rgb(180 137 206);
 }
-a:hover {
+a:hover, a h4:hover {
     color: #9150ae;
 }
-a:visited {
-    color: #9150ae;
-}
-
-a ~ {
-    color: rgb(180 137 206);
-}
-a ~ :hover {
-    color: #9150ae;
-}
-a ~ :visited {
+a:visited, a h4:visited {
     color: #9150ae;
 }
 
