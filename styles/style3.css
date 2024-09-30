@@ -159,9 +159,9 @@ a, a h4 {
 a:hover, a h4:hover {
     color: #9150ae;
 }
-a:visited, a h4:visited {
+/* a:visited, a h4:visited {
     color: #9150ae;
-}
+} */
 
 img {
     filter: drop-shadow(16px 16px 20px #a882e2);
