@@ -185,3 +185,7 @@ img:hover {
     border: 4px solid white;
     opacity: 1;
 }
+
+section.summary ul li {
+    border-bottom: solid 2px;
+}
