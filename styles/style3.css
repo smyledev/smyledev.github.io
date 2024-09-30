@@ -24,12 +24,6 @@ body {
     color: #8C92AC;
 }
 
-/* header.main-header {
-    background-image: linear-gradient(99.9deg, rgba(27,24,31,1) 21.2%, rgba(50,4,89,1) 84.8%);
-    background-color: purple;
-    color: #fff;
-    padding: 2rem;
-} */
 
 header.main-header {
     background-image: linear-gradient(99.9deg, rgb(16 16 18) 21.2%, rgb(50 30 76) 84.8%);
@@ -39,18 +33,6 @@ header.main-header {
     opacity: 0.95;
     border-bottom: solid #0c0e10;
 }
-
-/* .avatar-figure {
-    background-image: url('./images/stars.jpg');
-    background-color: rgb(47, 47, 91);
-    background-size: cover;
-    margin: 0;
-    padding: 1rem;
-}
-
-figure.avatar-figure img {
-    border:  3px solid #fff;
-} */
 
 
 ul.contacts {
@@ -100,7 +82,7 @@ section.summary {
     text-shadow: 1px 1px 2px pink;
 }
 
-.space {
+/* .space {
     background: 
         url('./images/rocket_big.png') no-repeat center, 
         url('./images/space.jpg') no-repeat bottom center;
@@ -109,7 +91,7 @@ section.summary {
     height:  8rem;
     border-radius: 50%;
     margin-right: 15px;
-}
+} */
 
 section.work-experience{
     margin-top: 2rem;
@@ -118,7 +100,7 @@ section.work-experience{
 table {
     width: 100%;
     border-collapse: collapse;
-    border: 3px solid purple;
+    border: 3px solid #ff00ff40;
     table-layout: fixed;
 }
 
@@ -167,18 +149,20 @@ caption {
 }
 
 /* .main-footer {
-    background-image: linear-gradient(99.9deg, rgba(27,24,31,1) 21.2%, rgba(50,4,89,1) 84.8%);
-    background-color: purple;
-    color: #fff;
-    padding: 2rem;
-} */
-
-.main-footer {
     background-image: linear-gradient(99.9deg, rgb(0 0 0) 21.2%, rgb(20 7 31) 84.8%);
     background-color: #020202;
     color: #fff;
     padding: 2rem;
     opacity: 0.9;
+} */
+
+.main-footer {
+    background-image: linear-gradient(99.9deg, rgb(0 0 0) 21.2%, rgb(8 7 9) 84.8%);
+    background-color: #020202;
+    color: #fff;
+    padding: 2rem;
+    opacity: 0.96;
+    border-top: solid #100f11;
 }
 
 main {
