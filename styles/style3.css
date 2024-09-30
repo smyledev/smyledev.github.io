@@ -186,6 +186,6 @@ img:hover {
     opacity: 1;
 }
 
-section.summary ul li {
+.section-summary {
     border-bottom: solid 1px;
 }
