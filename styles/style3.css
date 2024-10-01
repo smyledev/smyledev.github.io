@@ -187,11 +187,11 @@ nav ul li {
     padding: 0 var(--space-size);
 }
 
-.scaled {
-    transition: all .2s ease-in-out;
+a.scaled {
+     display: inline-block;
+    transition: .2s ease-in-out;
 }
 
-.scaled:hover {
+a.scaled:hover {
     transform: scale(1.1);
 }
-
