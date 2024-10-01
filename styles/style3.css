@@ -189,7 +189,7 @@ nav ul li {
 
 a.scaled {
      display: inline-block;
-    transition: .2s ease-in-out;
+    transition: .1s ease-in-out;
 }
 
 a.scaled:hover {
