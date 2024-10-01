@@ -1,7 +1,7 @@
 html {
     background-image: url('../../images/backgroud_graffiti.jpg');
     background-size: contain;
-    filter: saturate(180%) contrast(120%);
+    filter: saturate(160%) contrast(120%);
 }
 
 body {
