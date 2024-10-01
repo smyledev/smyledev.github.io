@@ -9,14 +9,14 @@ body {
     margin: 0;
 }
 
-/* .contact::before {
+.contact::before {
     content: '';
     display: inline-block;
     margin-right: 10px;
     width: 1rem;
     height: 1rem;
     background-size: cover;
-} */
+}
 
 .main-quote {
     margin: 0 0 20px 0;
@@ -36,7 +36,7 @@ header.main-header {
 }
 
 
-/* ul.contacts {
+ul.contacts {
     max-width: 50%;
     padding: 1rem;
     border: 3px solid #fff;
@@ -48,17 +48,16 @@ ul.contacts li{
     list-style: none;
     display: inline-block;
 } 
-*/
 
-/* a.contact:visited {
+a.contact:visited {
     color:rgb(128, 128, 128)
 } 
 
 a.contact:active {
     color: rgb(151, 154, 170);
-} */
+}
 
-/* .contact-phone::before{
+.contact-phone::before{
     background-image: url('./images/phone-call.svg');        
 }
 
@@ -68,7 +67,7 @@ a.contact:active {
 
 .contact-twitter::before {
     background-image: url('./images/twitter.svg');
-} */
+}
 
 h1 {
     padding-bottom: 30px;
