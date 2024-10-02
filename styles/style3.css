@@ -203,7 +203,7 @@ a.scaled:hover {
 }
 
 .summary-header {
-    display: block;
+    display: flex;
 }
 
 .summary-header h2:hover {
