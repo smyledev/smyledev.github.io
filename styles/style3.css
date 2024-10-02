@@ -201,3 +201,26 @@ a.scaled:hover {
     transform: scale(1.1);
     color: #15fdfdeb !important;
 }
+
+.summary-header {
+    display: block;
+}
+
+.summary-header h2:hover {
+        animation-name: shake;
+        animation-duration: 1s;
+    }
+
+@keyframes shake {
+    20% {
+            transform: rotate(4deg);
+        }
+     40% {
+            transform: rotate(-3deg);
+        }
+        60% {
+            transform: rotate(2deg);
+        }
+             80% {
+            transform: rotate(-1deg);
+             }
