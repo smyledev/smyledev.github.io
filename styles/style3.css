@@ -1,7 +1,7 @@
 html {
     background-image: url('../../images/backgroud_graffiti.jpg');
     background-size: contain;
-    filter: saturate(160%) contrast(120%);
+    filter: saturate(110%) contrast(120%);
 }
 
 body {
@@ -190,6 +190,7 @@ nav ul li {
 a.scaled {
      display: inline-block;
     transition: .1s ease-in-out;
+    transform: rotate(2deg) ;
 }
 
 a.scaled:hover {
