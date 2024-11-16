@@ -224,3 +224,72 @@ a.scaled:hover {
              80% {
             transform: rotate(-1deg);
              }
+}
+
+
+pre {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin: 1rem 0 0 1rem;
+  width: fit-content;
+  padding: 2rem;
+background-color: #151718;
+ 
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5); 
+}
+code {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+}
+
+.lineOfCode {
+  animation: typingEffect 1800ms steps(34, end) forwards 2000ms,
+    caretAnim 500ms steps(4, end) 0s infinite;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  width: 0;
+  height: auto;
+  border-right: 2px solid #ffffff;
+}
+.lineOfCode:nth-of-type(2) {
+  
+  animation-delay: 3100ms;
+}
+.lineOfCode:nth-of-type(3) {
+  
+  animation-delay: 5200ms;
+}
+
+@keyframes typingEffect {
+  0% {
+    border-width: 2px;
+  }
+  5% {
+    width: 0;
+    height: auto;
+    border-width: 2px;
+  }
+  93% {
+    border-width: 2px;
+  }
+  100% {
+    width: 18ch;
+    height: auto;
+    border-width: 0;
+  }
+}
+
+@keyframes caretAnim {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #ffffff;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
