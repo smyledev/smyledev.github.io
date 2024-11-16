@@ -410,7 +410,8 @@ pre {
   margin: 1rem 0 0 1rem;
   width: fit-content;
   padding: 2rem;
-background-color: #251e35;
+background-color: #201d26;
+        border-radius: 10px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5); 
 }
 code {
