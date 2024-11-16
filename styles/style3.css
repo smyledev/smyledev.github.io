@@ -234,13 +234,8 @@ pre {
   width: fit-content;
   padding: 2rem;
 background-color: #151718;
- 
   border-radius: 12px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5); 
-}
-code {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 400;
 }
 
 .lineOfCode {
