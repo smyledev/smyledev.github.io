@@ -3,6 +3,8 @@
 ## [Projects][]
 [Projects]: https://smyledev.github.io/projects.html
 
+1. Site for sale consoles and games (**GServices**) - **[GServices](https://ganjlikservices.github.io/)**
+
 1. Automated accounting system for a football club (**1C**) - **[ASFC](https://github.com/smyledev/1C/tree/main/SolutionsOfTasks/FootballClubSystem)**
 
 1. Creating an electronic digital signature, sending by mail and verifying the signature (**ASP NET**, **MVC**) - **[DigitalSignature](https://github.com/smyledev/CSharp/tree/main/CreateAndSendSignatureByGmail)**
