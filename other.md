@@ -3,7 +3,7 @@ layout: default
 title: Other
 ---
 
-1. [Example page 1](./page1.html), [Example page 2](./page2.html), [CV page](./cv.html), [Games services](https://ganjlikservices.github.io) 
+1.  [Games services](https://gamesservices.github.io), [Example page 1](./page1.html), [Example page 2](./page2.html), [CV page](./cv.html)
 
 2. [Sorting algorithms (C++)](./sorting_algorithms.html)
 
