@@ -3,7 +3,7 @@
 ## [Projects][]
 [Projects]: https://smyledev.github.io/projects.html
 
-1. Site for sale consoles and games (**Game services**) - **[GServices](https://gamesservices.github.io/)**
+1. Site for sale consoles and games (**HTML, CSS, JS**) - **[GamesServices](https://gamesservices.github.io/)**
 
 1. Automated accounting system for a football club (**1C**) - **[ASFC](https://github.com/smyledev/1C/tree/main/SolutionsOfTasks/FootballClubSystem)**
 
